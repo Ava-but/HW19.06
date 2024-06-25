@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <button class="btn-open" data-modal-open>Відкрити модалку</button>
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button class="btn" data-modal-close>X</button>
+            <h4 class="modal-title">Leave your contacts and we will call you back</h4>
+
+            <label class="modal-name" for="">
+                name
+                <input class="modal-input" type="text">
+            </label>
+
+            <label class="modal-name" for="">
+                phone
+                <input class="modal-input" type="tel">
+            </label>
+
+            <label class="modal-name" for="">
+                email
+                <input class="modal-input" type="email">
+            </label>
+
+            <label class="modal-name" for="">
+                Comment
+                <textarea name="" class="modal-text-area" id=""></textarea>
+            </label>
+            <div>
+                <p><input type="checkbox">I accept the terms and conditions of the <a href="#">Privacy Policy</a></p>
+            </div>
+            <button class="but"> Send</button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
